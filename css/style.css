@@ -1,3 +1,77 @@
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
+  color: #212121;
+}
+
+/* Логотип студии */
+
+.logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Выделение цветом части логотипа */
+
+.logo .logo-color {
+  color: #2196f3;
+}
+
+/* Сброс стилей списка навигации */
+
+.nav-list {
+  list-style: none;
+}
+
+/* Ссылки навигации по страницам сайта */
+
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  color: #212121;
+  text-decoration: none;
+}
+
+/* Эффект выделения цветом при наведении и фокусе */
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+
+/* Сброс стилей списка коммуникации */
+
+.contact-list {
+  list-style: none;
+}
+
+/* Стили к ссылкам коммуникации */
+
+.contact-list .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  color: #757575;
+}
+
+/* Эффект выделения цветом при наведении и фокусе */
+
+.contact-list .link:hover,
+.contact-list .link:focus {
+  color: #2196f3;
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: #ffffff;
 }
