@@ -65,13 +65,31 @@ body {
   color: #2196f3;
 }
 
+/* Секция герой */
+
 .hero {
   background-color: #2f303a;
 }
 
-.main-title {
+/* Стили к заголовку героя */
+
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   color: #ffffff;
+}
+
+/* Кнопка заказа услуги */
+
+.btn-order {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875;
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.features-list {
+  list-style: none;
 }
