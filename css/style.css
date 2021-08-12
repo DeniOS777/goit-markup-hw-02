@@ -23,12 +23,14 @@ body {
 /* Сброс стилей списка навигации, коммуникации, преимуществ, нашей работы и команды */
 
 .nav-list,
-.contact-list,
+.contacts-list,
 .features-list,
 .work-list,
 .team-list {
   list-style: none;
 }
+
+/* Сброс стилей ссылок */
 
 .link {
   text-decoration: none;
@@ -52,7 +54,7 @@ body {
 
 /* Стили к ссылкам коммуникации */
 
-.contact-list .link {
+.contacts-main {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
@@ -61,8 +63,8 @@ body {
 
 /* Эффект выделения цветом при наведении и фокусе */
 
-.contact-list .link:hover,
-.contact-list .link:focus {
+.contacts-main:hover,
+.contacts-main:focus {
   color: #2196f3;
 }
 
