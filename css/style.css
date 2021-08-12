@@ -20,7 +20,7 @@ body {
   color: #2196f3;
 }
 
-/* Сброс стилей списка навигации, коммуникации, преимуществ, нашей работы и команды */
+/* Сброс стилей списков навигации, коммуникации, преимуществ, нашей работы и команды */
 
 .nav-list,
 .contacts-list,
@@ -52,7 +52,7 @@ body {
   color: #2196f3;
 }
 
-/* Стили к ссылкам коммуникации */
+/* Главная почта и телефон */
 
 .contacts-main {
   font-weight: 500;
@@ -117,6 +117,10 @@ body {
   color: #757575;
 }
 
+.work {
+  background-color: #f5f4fa;
+}
+
 /* Заголовок секции о нашей работе и команде */
 
 .work-title,
@@ -142,6 +146,29 @@ body {
   color: #757575;
 }
 
-.basement {
+/* Подвал страницы */
+
+.bottom {
   background-color: #2f303a;
+}
+
+.contacts-text {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+}
+
+/* Дополнительная почта и телефон */
+
+.contacts-secondary {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-secondary:hover,
+.contacts-secondary:focus {
+  color: #2196f3;
 }
