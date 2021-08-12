@@ -20,9 +20,13 @@ body {
   color: #2196f3;
 }
 
-/* Сброс стилей списка навигации */
+/* Сброс стилей списка навигации, коммуникации, преимуществ, нашей работы и команды */
 
-.nav-list {
+.nav-list,
+.contact-list,
+.features-list,
+.work-list,
+.team-list {
   list-style: none;
 }
 
@@ -41,12 +45,6 @@ body {
 .link:hover,
 .link:focus {
   color: #2196f3;
-}
-
-/* Сброс стилей списка коммуникации */
-
-.contact-list {
-  list-style: none;
 }
 
 /* Стили к ссылкам коммуникации */
@@ -89,6 +87,7 @@ body {
   line-height: 1.87;
   background-color: #2196f3;
   color: #ffffff;
+  cursor: pointer;
 }
 
 /* Эффект выделения цветом при наведении и фокусе */
@@ -98,12 +97,6 @@ body {
   background-color: #188ce8;
 }
 
-/* Список преимуществ */
-
-.features-list {
-  list-style: none;
-}
-
 /* Подзаголовки списка преимуществ */
 
 .features-subtitle {
@@ -111,8 +104,19 @@ body {
   line-height: 1.14;
 }
 
+/* Текс в подзаголовках преимуществ */
+
 .features-text {
   font-size: 14px;
   line-height: 1.71;
   color: #757575;
+}
+
+/* Заголовок секции о нашей работе и команде */
+
+.work-title,
+.team-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
