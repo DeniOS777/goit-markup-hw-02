@@ -11,12 +11,11 @@ body {
   font-size: 26px;
   line-height: 1.17;
   color: #000000;
-  text-decoration: none;
 }
 
 /* Выделение цветом части логотипа */
 
-.logo .logo-color {
+.logo-web {
   color: #2196f3;
 }
 
