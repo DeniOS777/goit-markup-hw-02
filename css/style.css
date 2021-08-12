@@ -151,6 +151,12 @@ body {
   background-color: #2f303a;
 }
 
+.logo-studio {
+  color: #ffffff;
+}
+
+/* Физический адрес студии */
+
 .contacts-text {
   font-style: normal;
   font-size: 14px;
@@ -166,6 +172,8 @@ body {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
+
+/* Эффект выделения цветом при наведении и фокусе */
 
 .contacts-secondary:hover,
 .contacts-secondary:focus {
