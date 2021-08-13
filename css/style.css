@@ -1,6 +1,35 @@
+/* Объявление переменных */
+
+:root {
+  --main-title-color: #ffffff;
+  --secondary-title-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+/* Задание правил для тэга body */
+
 body {
   font-family: 'Roboto', sans-serif;
-  color: #212121;
+  color: var(--secondary-title-color);
+}
+
+/* Сброс стилей списков навигации, коммуникации, преимуществ, нашей работы, команды, фильтра проектов, проектов */
+
+.nav-list,
+.contacts-list,
+.features-list,
+.work-list,
+.team-list,
+.projects-filter-list,
+.projects-list {
+  list-style: none;
+}
+
+/* Сброс стилей ссылок */
+
+.link {
+  text-decoration: none;
 }
 
 /* Логотип студии */
@@ -16,23 +45,7 @@ body {
 /* Выделение цветом части логотипа */
 
 .logo-web {
-  color: #2196f3;
-}
-
-/* Сброс стилей списков навигации, коммуникации, преимуществ, нашей работы и команды */
-
-.nav-list,
-.contacts-list,
-.features-list,
-.work-list,
-.team-list {
-  list-style: none;
-}
-
-/* Сброс стилей ссылок */
-
-.link {
-  text-decoration: none;
+  color: var(--accent-color);
 }
 
 /* Ссылки навигации по страницам сайта */
@@ -41,14 +54,14 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
-  color: #212121;
+  color: var(--secondary-title-color);
 }
 
-/* Эффект выделения цветом при наведении и фокусе */
+/* Эффект выделения цветом при ховере и фокусе */
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* Главная почта и телефон */
@@ -57,14 +70,14 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
-  color: #757575;
+  color: var(--text-color);
 }
 
-/* Эффект выделения цветом при наведении и фокусе */
+/* Эффект выделения цветом при ховере и фокусе */
 
 .contacts-main:hover,
 .contacts-main:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* Секция герой */
@@ -79,8 +92,8 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
-  color: #ffffff;
+  text-transform: uppercase;
+  color: var(--main-title-color);
 }
 
 /* Кнопка заказа услуги */
@@ -94,7 +107,7 @@ body {
   cursor: pointer;
 }
 
-/* Эффект выделения цветом при наведении и фокусе */
+/* Эффект выделения цветом при ховере и фокусе */
 
 .btn-order:hover,
 .btn-order:focus {
@@ -106,6 +119,7 @@ body {
 .features-subtitle {
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 /* Текс в подзаголовках преимуществ */
@@ -113,7 +127,7 @@ body {
 .features-text {
   font-size: 14px;
   line-height: 1.71;
-  color: #757575;
+  color: var(--text-color);
 }
 
 .work {
@@ -126,7 +140,6 @@ body {
 .team-title {
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
 }
 
 /* Имена членов команды */
@@ -142,7 +155,7 @@ body {
 .member-proffesion {
   font-size: 16px;
   line-height: 1.19;
-  color: #757575;
+  color: var(--text-color);
 }
 
 /* Подвал страницы */
@@ -173,9 +186,46 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* Эффект выделения цветом при наведении и фокусе */
+/* Эффект выделения цветом при ховере и фокусе */
 
 .contacts-secondary:hover,
 .contacts-secondary:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+
+/*|||||||||||||||||||||||| Страница Портфолио ||||||||||||||||||||||||*/
+
+/* Фильтр в виде кнопок */
+
+.btn-filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: #212121;
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+
+/* Эффект выделения цветом при ховере и фокусе */
+
+.btn-filter:hover,
+.btn-filter:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+/* Названия проектов */
+
+.projects-title {
+  font-size: 18px;
+  line-height: 2;
+  color: var(--secondary-title-color);
+}
+
+/* Название категории проектов */
+
+.projects-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--text-color);
 }
