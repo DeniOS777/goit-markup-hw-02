@@ -21,7 +21,7 @@ body {
 .features-list,
 .work-list,
 .team-list,
-.projects-filter-list,
+.filter-list,
 .projects-list {
   list-style: none;
 }
@@ -55,6 +55,10 @@ body {
   font-size: 14px;
   line-height: 1.17;
   color: var(--secondary-title-color);
+}
+
+.current {
+  color: var(--accent-color);
 }
 
 /* Эффект выделения цветом при ховере и фокусе */
@@ -98,7 +102,7 @@ body {
 
 /* Кнопка заказа услуги */
 
-.btn-order {
+.hero-button {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
@@ -109,14 +113,14 @@ body {
 
 /* Эффект выделения цветом при ховере и фокусе */
 
-.btn-order:hover,
-.btn-order:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #188ce8;
 }
 
 /* Подзаголовки списка преимуществ */
 
-.features-subtitle {
+.features-title {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -130,10 +134,6 @@ body {
   color: var(--text-color);
 }
 
-.work {
-  background-color: #f5f4fa;
-}
-
 /* Заголовок секции о нашей работе и команде */
 
 .work-title,
@@ -144,7 +144,7 @@ body {
 
 /* Имена членов команды */
 
-.member-name {
+.member-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -152,7 +152,7 @@ body {
 
 /* Профессии членов команды */
 
-.member-proffesion {
+.member-text {
   font-size: 16px;
   line-height: 1.19;
   color: var(--text-color);
@@ -168,19 +168,28 @@ body {
   color: #ffffff;
 }
 
+/* Сброс курсивного начертания в теге addres */
+
+.bottom-info {
+  font-style: normal;
+}
+
 /* Физический адрес студии */
 
-.contacts-text {
-  font-style: normal;
+.contacts-link {
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff;
 }
 
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+
 /* Дополнительная почта и телефон */
 
 .contacts-secondary {
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
@@ -197,7 +206,7 @@ body {
 
 /* Фильтр в виде кнопок */
 
-.btn-filter {
+.filter-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -208,8 +217,8 @@ body {
 
 /* Эффект выделения цветом при ховере и фокусе */
 
-.btn-filter:hover,
-.btn-filter:focus {
+.filter-button:hover,
+.filter-button:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
